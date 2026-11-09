@@ -1,0 +1,4 @@
+interface:
+  display_name: "汽车商业精修"
+  short_description: "以实拍与细节参考约束汽车商业精修，保留景深层次并逐张核对结构与标识"
+  default_prompt: "使用 $automotive-retouch 根据原片和细节参考做商业精修，先确认主体保护范围，再优化光影并清理环境。"

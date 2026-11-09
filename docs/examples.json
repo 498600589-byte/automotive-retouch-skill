@@ -1,0 +1,185 @@
+{
+  "display_policy": "Static vehicles and interior only; no vehicle road-running scenes.",
+  "examples": [
+    {
+      "id": "tea-garden",
+      "title": "茶园静态车",
+      "scene": "static_vehicle",
+      "versions": {
+        "before": {
+          "file": "docs/assets/sources/tea-garden-before.jpg",
+          "source_pixels": [
+            7008,
+            4672
+          ],
+          "display_pixels": [
+            1600,
+            1067
+          ],
+          "sha256": "42d1474db55ce280de8f0b87807ef0b3dfc5dfd9cbec8f61265695a14360d7b8"
+        },
+        "image": {
+          "file": "docs/assets/sources/tea-garden-image.jpg",
+          "source_pixels": [
+            1536,
+            1024
+          ],
+          "display_pixels": [
+            1536,
+            1024
+          ],
+          "sha256": "15ddb0a599c87464b46df0662ea310cc18977298316482bfd86f2c503c302aa7"
+        },
+        "dreamina": {
+          "file": "docs/assets/sources/tea-garden-dreamina.jpg",
+          "source_pixels": [
+            2496,
+            1664
+          ],
+          "display_pixels": [
+            1600,
+            1067
+          ],
+          "sha256": "912a959aaa3a2bdda761d7fffcb4a520d8dcbe53ee18927a498dc9e3457096ea"
+        }
+      },
+      "comparisons": {
+        "horizontal": {
+          "file": "docs/assets/tea-garden-comparison.jpg",
+          "pixels": [
+            1800,
+            720
+          ],
+          "versions": [
+            "before",
+            "image"
+          ]
+        },
+        "vertical": {
+          "file": "docs/assets/tea-garden-triptych.jpg",
+          "pixels": [
+            1080,
+            1920
+          ],
+          "versions": [
+            "before",
+            "image",
+            "dreamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lawn",
+      "title": "草坪静态车",
+      "scene": "static_vehicle",
+      "versions": {
+        "before": {
+          "file": "docs/assets/sources/lawn-before.jpg",
+          "source_pixels": [
+            7008,
+            4672
+          ],
+          "display_pixels": [
+            1600,
+            1067
+          ],
+          "sha256": "ffc2fa9023282f222927bceb32d677cb10570e4eb0d216e8be11bb2a82732a9a"
+        },
+        "image": {
+          "file": "docs/assets/sources/lawn-image.jpg",
+          "source_pixels": [
+            1536,
+            1024
+          ],
+          "display_pixels": [
+            1536,
+            1024
+          ],
+          "sha256": "eb71f84f395b72dbed345b1dfe96ffcb3a1549ff310445124ff630090d5cc3e4"
+        }
+      },
+      "comparisons": {
+        "horizontal": {
+          "file": "docs/assets/lawn-comparison.jpg",
+          "pixels": [
+            1800,
+            720
+          ],
+          "versions": [
+            "before",
+            "image"
+          ]
+        }
+      }
+    },
+    {
+      "id": "interior",
+      "title": "内饰",
+      "scene": "interior",
+      "versions": {
+        "before": {
+          "file": "docs/assets/sources/interior-before.jpg",
+          "source_pixels": [
+            7008,
+            4672
+          ],
+          "display_pixels": [
+            1600,
+            1067
+          ],
+          "sha256": "6d37d2c00507aade08f85abf55bcd7c64ac9aa5610576e6da1a8f1c0d01a5910"
+        },
+        "image": {
+          "file": "docs/assets/sources/interior-image.jpg",
+          "source_pixels": [
+            1536,
+            1024
+          ],
+          "display_pixels": [
+            1536,
+            1024
+          ],
+          "sha256": "5d9dd36c93612d4c6d4ade74ba28073b519f75786581918e665f6fdec98bd6fa"
+        },
+        "dreamina": {
+          "file": "docs/assets/sources/interior-dreamina.jpg",
+          "source_pixels": [
+            2496,
+            1664
+          ],
+          "display_pixels": [
+            1600,
+            1067
+          ],
+          "sha256": "a0c9cbf6b5bf673bfb0cb910ab82a99c6923cbada6ba1ecc384ad62b9c728507"
+        }
+      },
+      "comparisons": {
+        "horizontal": {
+          "file": "docs/assets/interior-comparison.jpg",
+          "pixels": [
+            1800,
+            720
+          ],
+          "versions": [
+            "before",
+            "image"
+          ]
+        },
+        "vertical": {
+          "file": "docs/assets/interior-triptych.jpg",
+          "pixels": [
+            1080,
+            1920
+          ],
+          "versions": [
+            "before",
+            "image",
+            "dreamina"
+          ]
+        }
+      }
+    }
+  ]
+}
